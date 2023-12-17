@@ -1,5 +1,5 @@
 module "subnet" {
-  source = “git::https://github.com/bhawna01bhatt/subnet_module.git?ref=subnet-module”
+  source = "git::https://github.com/bhawna01bhatt/subnet_module.git?ref=subnet-module"
   vpc_cidr        = var.vpc_cidr
   vpc_name        = var.vpc_name
   pub_subnet_cidr = var.pub_subnet_cidr
